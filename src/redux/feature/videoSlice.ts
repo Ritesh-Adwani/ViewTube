@@ -300,7 +300,6 @@ const searchVideosSlice = createSlice({
     searchVideosSuccess: (state, action) => {
       state.loading = false;
       state.videos = action.payload;
-      console.log(state.videos.length);
     },
     searchVideosFail: (state, action) => {
       state.error = action.payload;
