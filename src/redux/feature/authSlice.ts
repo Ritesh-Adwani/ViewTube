@@ -20,10 +20,8 @@ export const login = createAsyncThunk("auth/login", async (_, { dispatch }) => {
     provider.addScope("https://www.googleapis.com/auth/youtube.force-ssl");
 
     const res = await signInWithPopup(auth, provider);
-    console.log(res);
 
     const credential = GoogleAuthProvider.credentialFromResult(res);
-    console.log(credential);
 
     if (credential && credential.accessToken) {
       const profile: User = {
