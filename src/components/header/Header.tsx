@@ -64,7 +64,7 @@ const Header = ({
       </form>
 
       <div className="d-flex justify-content-between align-items-center">
-        <div className="d-flex me-5" onClick={toggleTheme} role="button">
+        <div className="d-flex me-3 me-sm-5" onClick={toggleTheme} role="button">
           <SettingsBrightnessOutlinedIcon fontSize="large"/>
           <p className={`${styles.darkModeText} ms-2 mb-0 pt-1`}>
             {" "}
