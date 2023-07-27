@@ -39,7 +39,7 @@ const Header = ({
         <MenuIcon
           role="button"
           onClick={handleToggleSidebar}
-          className="d-block d-sm-none"
+          className="d-block d-sm-none fs-1"
         />
         <Link to="/" className={styles.headerLink}>
           <div className="d-flex align-items-center">
@@ -65,7 +65,7 @@ const Header = ({
 
       <div className="d-flex justify-content-between align-items-center">
         <div className="d-flex me-5" onClick={toggleTheme} role="button">
-          <SettingsBrightnessOutlinedIcon />
+          <SettingsBrightnessOutlinedIcon fontSize="large"/>
           <p className={`${styles.darkModeText} ms-2 mb-0`}>
             {" "}
             {darkMode ? "Light" : "Dark"} Mode

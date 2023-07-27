@@ -36,14 +36,14 @@ const Sidebar = ({ sidebar, handleToggleSidebar }: SidebarProps) => {
     >
       <Link to="/" className={styles.sidebarLink}>
         <div className={`${styles.sidebarItem} mb-2 d-flex align-items-center`}>
-          <HomeIcon />
+          <HomeIcon className="fs-1"/>
           <p className={`${styles.sidebarItemName} pt-1 ms-2 mb-0`}>Home</p>
         </div>
       </Link>
 
       <Link to="/feed/subscriptions" className={styles.sidebarLink}>
         <div className={`${styles.sidebarItem} mb-2 d-flex align-items-center`}>
-          <SubscriptionsOutlinedIcon className="" />
+          <SubscriptionsOutlinedIcon className="fs-1" />
 
           <p className={`${styles.sidebarItemName} pt-1 ms-2 mb-0`}>
             Subscriptions
@@ -53,7 +53,7 @@ const Sidebar = ({ sidebar, handleToggleSidebar }: SidebarProps) => {
 
       <Link to="/feed/liked" className={styles.sidebarLink}>
         <div className={`${styles.sidebarItem} mb-2 d-flex align-items-center`}>
-          <ThumbUpOffAltIcon />
+          <ThumbUpOffAltIcon className="fs-1"/>
           <p className={`${styles.sidebarItemName} pt-1 ms-1 mb-0`}>
             Liked Videos
           </p>
@@ -65,12 +65,12 @@ const Sidebar = ({ sidebar, handleToggleSidebar }: SidebarProps) => {
       <div
         className={`${styles.sidebarItem} mb-2 mt-2 d-flex align-items-center`}
       >
-        <VideoLibraryOutlinedIcon className="pt-1" />
+        <VideoLibraryOutlinedIcon className="pt-1 fs-1" />
         <p className={`${styles.sidebarItemName} pt-1 ms-1 mb-0`}>Library</p>
       </div>
 
       <div className={`${styles.sidebarItem} mb-2 d-flex align-items-center`}>
-        <HistoryOutlinedIcon className="pt-1" />
+        <HistoryOutlinedIcon className="pt-1 fs-1" />
         <p className={`${styles.sidebarItemName} pt-1 ms-1 mb-0`}>History</p>
       </div>
 
@@ -79,27 +79,27 @@ const Sidebar = ({ sidebar, handleToggleSidebar }: SidebarProps) => {
       <div
         className={`${styles.sidebarItem} mb-2 mt-2 d-flex align-items-center`}
       >
-        <LibraryMusicOutlinedIcon className="pt-1" />
+        <LibraryMusicOutlinedIcon className="pt-1 fs-1" />
         <p className={`${styles.sidebarItemName} pt-1 ms-1 mb-0`}>Music</p>
       </div>
 
       <div className={`${styles.sidebarItem} mb-2 d-flex align-items-center`}>
-        <SportsBasketballOutlinedIcon className="pt-1" />
+        <SportsBasketballOutlinedIcon className="pt-1 fs-1" />
         <p className={`${styles.sidebarItemName} pt-1 ms-1 mb-0`}>Sports</p>
       </div>
 
       <div className={`${styles.sidebarItem} mb-2 d-flex align-items-center`}>
-        <SportsEsportsOutlinedIcon className="pt-1" />
+        <SportsEsportsOutlinedIcon className="pt-1 fs-1" />
         <p className={`${styles.sidebarItemName} pt-1 ms-1 mb-0`}>Gaming</p>
       </div>
 
       <div className={`${styles.sidebarItem} mb-2 d-flex align-items-center`}>
-        <MovieCreationOutlinedIcon className="pt-1" />
+        <MovieCreationOutlinedIcon className="pt-1 fs-1" />
         <p className={`${styles.sidebarItemName} pt-1 ms-1 mb-0`}>Movies</p>
       </div>
 
       <div className={`${styles.sidebarItem} mb-2 d-flex align-items-center`}>
-        <ArticleOutlinedIcon className="pt-1" />
+        <ArticleOutlinedIcon className="pt-1 fs-1" />
         <p className={`${styles.sidebarItemName} pt-1 ms-1 mb-0`}>News</p>
       </div>
 
@@ -110,7 +110,7 @@ const Sidebar = ({ sidebar, handleToggleSidebar }: SidebarProps) => {
         role="button"
         onClick={handleLogout}
       >
-        <LogoutIcon className="pt-1" />
+        <LogoutIcon className="pt-1 fs-1" />
         <p className={`${styles.sidebarItemName} pt-1 ms-1 mb-0`}>Logout</p>
       </div>
     </nav>

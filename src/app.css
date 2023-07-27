@@ -7,9 +7,3 @@
     margin-top:7vh;
   }
 }
-
-@media (max-width:576px){
-  .sidebar-and-body{
-    margin-top:5vh;
-  }
-}

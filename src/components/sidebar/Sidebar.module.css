@@ -58,7 +58,7 @@
 
 @media (max-width: 876px) {
   .sidebar {
-    width: 50px;
+    width: 60px;
     top: 7vh;
     left: 0;
   }
@@ -74,7 +74,6 @@
   .sidebar {
     transform: translateX(-100%);
     z-index: 999;
-    top: 5vh;
     position: absolute;
   }
 

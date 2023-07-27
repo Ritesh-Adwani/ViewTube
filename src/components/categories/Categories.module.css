@@ -1,6 +1,6 @@
 .categories {
   overflow-x: scroll;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .categories::-webkit-scrollbar {
