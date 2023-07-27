@@ -66,7 +66,7 @@ const Header = ({
       <div className="d-flex justify-content-between align-items-center">
         <div className="d-flex me-5" onClick={toggleTheme} role="button">
           <SettingsBrightnessOutlinedIcon fontSize="large"/>
-          <p className={`${styles.darkModeText} ms-2 mb-0`}>
+          <p className={`${styles.darkModeText} ms-2 mb-0 pt-1`}>
             {" "}
             {darkMode ? "Light" : "Dark"} Mode
           </p>

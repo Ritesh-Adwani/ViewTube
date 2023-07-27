@@ -1,9 +1,3 @@
 .sidebar-and-body{
   margin-top:10vh;
 }
-
-@media (max-width:876px){
-  .sidebar-and-body{
-    margin-top:7vh;
-  }
-}

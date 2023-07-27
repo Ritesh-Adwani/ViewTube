@@ -65,12 +65,6 @@
   color: inherit;
 }
 
-@media (max-width: 876px) {
-  .header {
-    height: 7vh;
-  }
-}
-
 @media (max-width: 576px) {
   .header {
     padding: 1rem;
