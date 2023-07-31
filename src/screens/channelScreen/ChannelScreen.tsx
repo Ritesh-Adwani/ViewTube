@@ -67,7 +67,7 @@ const ChannelScreen = () => {
 
       <Container>
         <Row className="mt-2">
-          {loading
+          {!loading
             ? videos?.map((video) => (
                 <Col
                   md={4}
